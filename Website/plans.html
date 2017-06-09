@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Catfish Stu - Real Southern Cooking Made Simple</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/business-casual.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div class="brand" style="text-decoration:none;"><a href="index.html">Catfish Stu</a></div>
+    <div class="address-bar">Promoting Southern Heritage through great food</div>
+    <button class = "loginbtn btn-success" href="#" data-toggle="modal" data-target="#login-modal">Log In</button>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Catfish Stu</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="plans.html">Plans</a>
+                    </li>
+                    <li>
+                        <a href="how.html">How it Works</a>
+                    </li>
+                    <li>
+                        <a href="videos.html">Videos</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Who we are</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Our
+                        <strong>Plans</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/porkchops.jpg" alt="Beginner Cooking Plan">
+                    <h3>Beginner Plan<p></p>
+                        <small>Simple, Fresh, Southern</small>
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/intermediate.jpg" alt="Intermediate Cooking Plan">
+                    <h3>Intermediate Plan<p></p>
+                        <small>More challenging</small>
+                    </h3>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="img-responsive" src="img/kidfriendly.jpg" alt="Kid Friendly Cooking Plan">
+                    <h3>Kid Friendly<p></p>
+                        <small>Easier Meals That Kids Love</small>
+                    </h3>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">About
+                        <strong>Our Plans</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    <ul>
+                    <li><p>At Catfish Stu we keep it simple. We only have three plans, each that provides three meals a week. No reason to add more decisions than necessary.</p></li>
+                    <li><p>Our beginner plan is the most popular. Most people start with this plan and for many it is perfect. The meals are straight forward and easy to cook and the preparation and cook times are usually the shortest.</p></li>
+                        <li><p>For the more adventurous chef, try the Intermediate Plan. There is a bit more time spent in preparation and cooking but talk about impressing your friends. These meals are sure to blow your dinner guests away with exciting and innovative recipes to challenge the real foodies.</p></li>
+                        <li><p>Finally the Kid Friendly meal plan. This plan is similar to the Beginner plan with straight forward recipes and simple cooking but each meal is designed with the children in mind. For a family chef, it is critical that the kids like what is being cooked and we made sure this plan wouldn't disappoint.</p></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Engineered Media 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username" required>
+					<input type="password" name="pass" placeholder="Password" required>
+                    <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
+
+</body>
+
+</html>
